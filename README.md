@@ -2,9 +2,11 @@
 
 Aplikasi berbahasa Indonesia untuk menyiapkan draf dokumen kinerja dan menelusuri kendala administrasi tunjangan guru. Gratis, tanpa akun, tanpa API berbayar. Proyek independen; bukan layanan pemerintah.
 
-**Situs publik:** https://guruaide.vercel.app (alamat produksi; lihat status penyebaran pada repositori).
+**Situs publik:** https://guruaide.vercel.app (dapat diakses tanpa akun).
 
-**Status 27 November 2026:** prototipe fungsional berbasis aturan dan templat. Belum ada hasil uji guru, pengiriman dokumen resmi, promosi media, atau sesi Zoom yang diklaim.
+**Unduh kode dan dokumen:** https://guruaide.vercel.app/downloads/guruaide-source.zip — arsip MIT dibuat ulang dari sumber saat build.
+
+**Status 27 November 2026:** prototipe fungsional berbasis aturan dan templat. Pemeriksaan aturan, build, serta uji alur peramban telah dijalankan. Belum ada hasil uji guru, pengiriman dokumen resmi, promosi media, atau sesi Zoom yang diklaim.
 
 ## Layanan
 
@@ -59,3 +61,7 @@ Penggunaan awal berfokus pada guru SD/SMP negeri. Dukungan jenjang lain berupa l
 Laporkan kekeliruan kolom, tautan, aturan, atau tampilan melalui [Issues](https://github.com/wilisail/guruaide/issues). Gunakan contoh rekaan. **Jangan unggah kasus pribadi atau dokumen guru/murid.** Untuk perubahan aturan, cantumkan sumber resmi, lingkup program, tanggal sumber, serta kasus uji.
 
 Kode dan dokumen asli proyek berlisensi [MIT](LICENSE). Referensi pemerintah dan karya ilmiah milik pihak lain tidak ikut dilisensikan ulang.
+
+## Penyebaran awal
+
+Versi produksi diunggah melalui Vercel API ke proyek `guruaide` pada tim ANDOR. Proyek belum ditautkan untuk penyebaran otomatis dari GitHub karena integrasi Vercel belum dapat membaca repositori privat ini. Mengubah kode di GitHub saja belum memperbarui situs; lakukan penyebaran ulang atau hubungkan repositori melalui pengaturan Vercel. Akses publik situs dan visibilitas repositori merupakan pengaturan terpisah.
