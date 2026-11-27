@@ -1,6 +1,6 @@
 # Draf publikasi Bahasa Indonesia
 
-Replace bracketed contact/booking links before posting. These are drafts; no posts or messages have been sent. Share only in channels where the project owner is authorised to post.
+Replace bracketed contact/booking links before posting. The demo link is ready; the public-source ZIP is available at https://guruaide.vercel.app/downloads/guruaide-source.zip . Keep the repository placeholder until its public visibility is confirmed. These are drafts; no posts or messages have been sent. Share only in channels where the project owner is authorised to post.
 
 ## Rekrutmen riset: dapat digunakan sebelum aplikasi selesai
 
@@ -27,7 +27,7 @@ Kami membuka uji coba awal dengan dua alur:
 
 Guru meninjau hasil sebelum menggunakannya pada layanan resmi. Penilaian kinerja dan keputusan tunjangan tetap dilakukan pihak yang berwenang.
 
-Coba demo: [WORKING_DEMO_LINK]
+Coba demo: https://guruaide.vercel.app/
 Kode dan lisensi MIT: [PUBLIC_REPOSITORY_LINK]
 Berikan masukan / ikut Zoom: [INTEREST_FORM_LINK]
 

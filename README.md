@@ -47,6 +47,7 @@ Jangan masukkan kata sandi, NIK, NIP, nomor rekening, identitas atau nilai murid
 7. [Artikel pengantar Bahasa Indonesia](research/article-id.md)
 8. [Riset awal dan konteks sumber](research/initial-research-2026-11-27.md)
 9. [Catatan segmentasi populasi](research/README.md)
+10. [Status rilis dan pekerjaan tersisa](docs/release-status.md)
 
 Riset awal memuat alternatif lingkup sebelum fokus dokumen kinerja/tunjangan ditetapkan. Rekomendasi lama bukan status implementasi saat ini. Data skenario penuh waktu/paruh waktu adalah asumsi eksplorasi, bukan statistik terukur. Draf media memiliki penanda untuk disesuaikan sebelum digunakan; tidak ada unggahan atau undangan yang telah dikirim.
 

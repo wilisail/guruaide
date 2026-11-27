@@ -1,10 +1,12 @@
 # Build plan and success measures
 
-## Work that can start now
+## Current implementation status — 27 November 2026
 
-The field inventory, proposed flows, synthetic examples, MIT license, interview protocol, and recruitment drafts are included. They support implementation immediately. Examples from teachers are needed to validate the live fields and usability, not to invent project scope from nothing.
+The initial prototype is implemented and live at https://guruaide.vercel.app/. Both the performance-document drafting flow and the allowance-case navigator work without paid APIs or account credentials. Syntax checks, all six existing automated tests, and the static build passed again during release recovery. Live browser checks confirmed editable performance output with a missing-time warning and the synthetic SKTP/payment inquiry.
 
-## Proposed implementation blocks
+Teacher validation, participant recruitment, media posting, and Zoom sessions are still pending. Repository publication and automatic GitHub-to-Vercel deployment are separate release tasks; see [release status](release-status.md). Examples from teachers are needed to validate the live fields and usability, not to invent project scope from nothing.
+
+## Original implementation estimates
 
 The estimates below are planning judgments for a template/rules prototype, not delivery commitments. They exclude official connectors, live-model integration, recruitment delays and later feedback iterations.
 
@@ -16,7 +18,7 @@ The estimates below are planning judgments for a template/rules prototype, not d
 | Verification and public-alpha packaging | Builder | Representative scenario checks, readable mobile layout, README/demo and feedback entry point | 4–7 hours |
 | Recruitment and teacher context | Project owner with participating teachers | Real workflows, redacted examples and consented sessions | Calendar-dependent; 30 minutes per interview |
 
-Indicative prototype effort: 16–24 development hours. Scope expansion changes this estimate.
+Original indicative prototype effort: 16–24 development hours. This is a planning estimate, not a measured work log or a claim that those development blocks are still outstanding.
 
 ## Smallest useful real-world input set
 
@@ -48,4 +50,4 @@ A payment or promotion outcome may take longer and depends on other actors. Meas
 - An incomplete case must show what is missing rather than an eligibility verdict.
 - A performance identity/organisation mismatch must point to the correct source-data owner, using the reference registry.
 
-These are proposed acceptance checks for implementation; this planning bundle has no working application to test yet.
+The implemented checks are in `tests/logic.test.mjs`. The six automated tests cover factual wording, missing prerequisites, route/period separation, payment-stage inquiries, source-data/account errors, and amount disputes. Passing synthetic checks does not establish acceptance by teachers or official services.
