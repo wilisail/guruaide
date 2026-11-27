@@ -1,0 +1,94 @@
+{
+  "denominator": 3168985,
+  "levels": [
+    {
+      "level": "TK",
+      "public": 34874,
+      "private": 247397,
+      "total": 282271,
+      "share": 0.0890729997144196,
+      "private_share_within_level": 0.8764520620255003
+    },
+    {
+      "level": "SD",
+      "public": 1283950,
+      "private": 238098,
+      "total": 1522048,
+      "share": 0.480295110264012,
+      "private_share_within_level": 0.15643264864182996
+    },
+    {
+      "level": "SMP",
+      "public": 500086,
+      "private": 185554,
+      "total": 685640,
+      "share": 0.21635949681049296,
+      "private_share_within_level": 0.2706289014643253
+    },
+    {
+      "level": "SMA",
+      "public": 253364,
+      "private": 95619,
+      "total": 348983,
+      "share": 0.11012453514295586,
+      "private_share_within_level": 0.2739932890713874
+    },
+    {
+      "level": "SMK",
+      "public": 171697,
+      "private": 158346,
+      "total": 330043,
+      "share": 0.1041478580681196,
+      "private_share_within_level": 0.4797738476501547
+    }
+  ],
+  "groups": [
+    {
+      "level_group": "TK+SD+SMP",
+      "sector": "public",
+      "observed_count": 1818910,
+      "observed_share": 0.5739724233469076,
+      "assumed_ft_fraction": 0.9,
+      "scenario_ft_count": 1637019.0,
+      "scenario_ft_share": 0.5165751810122169,
+      "scenario_pt_count": 181890.99999999997,
+      "scenario_pt_share": 0.05739724233469075
+    },
+    {
+      "level_group": "TK+SD+SMP",
+      "sector": "private",
+      "observed_count": 671049,
+      "observed_share": 0.21175518344201694,
+      "assumed_ft_fraction": 0.7,
+      "scenario_ft_count": 469734.3,
+      "scenario_ft_share": 0.14822862840941184,
+      "scenario_pt_count": 201314.70000000004,
+      "scenario_pt_share": 0.06352655503260508
+    },
+    {
+      "level_group": "SMA+SMK",
+      "sector": "public",
+      "observed_count": 425061,
+      "observed_share": 0.13413159102993547,
+      "assumed_ft_fraction": 0.9,
+      "scenario_ft_count": 382554.9,
+      "scenario_ft_share": 0.12071843192694191,
+      "scenario_pt_count": 42506.09999999999,
+      "scenario_pt_share": 0.013413159102993542
+    },
+    {
+      "level_group": "SMA+SMK",
+      "sector": "private",
+      "observed_count": 253965,
+      "observed_share": 0.08014080218114002,
+      "assumed_ft_fraction": 0.7,
+      "scenario_ft_count": 177775.5,
+      "scenario_ft_share": 0.05609856152679801,
+      "scenario_pt_count": 76189.50000000001,
+      "scenario_pt_share": 0.02404224065434201
+    }
+  ],
+  "public_share": 0.708104014376843,
+  "public_SD_SMP_count": 1784036,
+  "public_SD_SMP_share": 0.5629676379029879
+}

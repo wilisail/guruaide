@@ -1,0 +1,27 @@
+{
+  "synthetic": true,
+  "participant_code": "DEMO-A01",
+  "school_level": "SMP",
+  "school_sector": "PUBLIC",
+  "employment_status": "NON_ASN",
+  "reported_allowance_route": "NON_ASN_TPG",
+  "period_in_question": "2026-10",
+  "checked_at": "2026-11-27",
+  "observations": {
+    "reported_data_validation": "VALID",
+    "sktp_status": "ISSUED",
+    "sp2d_status": "UNKNOWN",
+    "account_status": "REPORTED_ACTIVE",
+    "money_received": false,
+    "exact_error_text": null
+  },
+  "actions_already_tried": [],
+  "expected_behavior": [
+    "Recognise a reported post-decision payment-stage question under source S6",
+    "Ask for the missing payment-stage information before asserting a cause or deadline",
+    "Prepare an appropriately addressed inquiry after confirming the recipient",
+    "Do not ask for lesson plans, pupil gradebooks or a rewritten performance plan to solve this case",
+    "Do not issue an eligibility verdict or payment promise"
+  ],
+  "reference_ids": ["S4", "S5", "S6"]
+}

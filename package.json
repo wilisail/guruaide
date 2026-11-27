@@ -1,0 +1,14 @@
+{
+  "name": "guruaide",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check app.js && node --check logic.js && npm test && npm run build"
+  },
+  "engines": {"node": ">=22"}
+}

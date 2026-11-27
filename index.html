@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#155ba8">
+  <title>Guruaide — Ruang Bantu Administrasi Guru</title>
+  <meta name="description" content="Siapkan draf dokumen kinerja dan telusuri kendala tunjangan dengan panduan bertahap. Gratis, tanpa akun. Proyek independen untuk guru Indonesia.">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Langsung ke isi halaman</a>
+  <div class="topline"><div class="wrap"><span>Ruang bantu untuk Bapak/Ibu Guru</span><span>Gratis · Tanpa akun</span></div></div>
+  <header class="header"><div class="wrap header-inner">
+    <a class="brand" href="#beranda" aria-label="Guruaide, beranda"><img src="/icon.svg" alt="" width="42" height="42"><span>Guruaide<small>Ruang Bantu Administrasi Guru</small></span></a>
+    <nav aria-label="Navigasi utama">
+      <a href="#beranda" data-nav="beranda">Beranda</a>
+      <a href="#kinerja" data-nav="kinerja">Dokumen Kinerja</a>
+      <a href="#tunjangan" data-nav="tunjangan">Kendala Tunjangan</a>
+      <a href="#panduan" data-nav="panduan">Panduan & Rujukan</a>
+    </nav>
+  </div></header>
+  <main id="main" class="wrap" tabindex="-1"></main>
+  <footer><div class="wrap footer-inner"><div class="footer-brand">Guruaide<small>Disusun untuk mendukung pekerjaan administrasi guru.</small></div><p>Proyek independen, bukan layanan resmi Kemendikdasmen.<br>Draf ditinjau dan disampaikan sendiri melalui layanan resmi.</p><div><a href="#tentang">Tentang & Privasi</a><a href="https://github.com/wilisail/guruaide" target="_blank" rel="noopener noreferrer">Kode Sumber · MIT</a></div></div><div class="wrap footer-bottom">Versi uji coba 0.1 · Rujukan diperiksa 27 November 2026</div></footer>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="confirm-dialog"><h2>Hapus draf di perangkat?</h2><p>Draf tersimpan dan isian pada sesi ini akan dihapus. Unduh terlebih dahulu apabila masih diperlukan.</p><div class="actions"><button class="btn secondary" data-action="cancel-delete">Batal</button><button class="btn danger" data-action="confirm-delete">Hapus Draf</button></div></dialog>
+  <noscript><div class="wrap panel">Aktifkan JavaScript untuk menggunakan formulir. <a href="/templates/kinerja-worksheet-id.md">Unduh lembar bantu kinerja</a> atau <a href="/templates/allowance-case-and-request-id.md">lembar bantu tunjangan</a>.</div></noscript>
+</body>
+</html>

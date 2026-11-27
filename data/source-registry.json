@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-11-27",
+  "status": "Reference inventory for a proposed prototype; not a comprehensive regulatory determination",
+  "sources": [
+    {"id":"S1","topic":"Teacher performance planning","source_updated_at":"2025-11-26","url":"https://pusatinformasi.ult.kemendikdasmen.go.id/hc/id/articles/40450716460441-Cara-Mengisi-Perencanaan-Kinerja-Untuk-Guru"},
+    {"id":"S2","topic":"Teacher performance execution documents","source_updated_at":"2026-07-14","url":"https://pusatinformasi.ult.kemendikdasmen.go.id/hc/id/articles/40450728276889-Cara-Mengisi-Pelaksanaan-Praktik-Kinerja-Untuk-Guru"},
+    {"id":"S3","topic":"Identity and school/organisation reconciliation for performance integration","source_updated_at":"2026-11-23","url":"https://pusatinformasi.ult.kemendikdasmen.go.id/hc/id/articles/64498455108249-Tentang-Mekanisme-Pemadanan-Data-Kependudukan"},
+    {"id":"S4","topic":"General Info GTK and allowance-data questions","source_updated_at":"2026-04-10","url":"https://pusatinformasi.ult.kemendikdasmen.go.id/hc/id/articles/56720158395929-Tanya-Jawab-Seputar-Info-GTK"},
+    {"id":"S5","topic":"Non-ASN TPG program and records; includes eligible PPPK Paruh Waktu","source_updated_at":"2026-05-21","url":"https://pusatinformasi.ult.kemendikdasmen.go.id/hc/id/articles/58134311444377-Informasi-Umum-TPG-Non-ASN"},
+    {"id":"S6","topic":"Non-ASN allowance validation, payment stages and account issues","url":"https://pusatinformasi.ult.kemendikdasmen.go.id/hc/id/articles/58135243413657-Kendala-yang-Dapat-Terjadi-pada-Proses-Penyaluran-Tunjangan-Profesi-Guru-TPG-Non-ASN"},
+    {"id":"S7","topic":"Specific SIMTUN/certification identity mapping question","source_updated_at":"2026-04-07","url":"https://pusatinformasi.ult.kemendikdasmen.go.id/hc/id/articles/56720815864089-Tanya-Jawab-Seputar-Data-SIMTUN-GTK"},
+    {"id":"S8","topic":"BKN administrative requirements illustrating that performance is one element among career-process requirements","url":"https://www.bkn.go.id/layanan/syarat-administrasi-manajemen-ASN/","access_note":"Official search result retrieved; full page fetch timed out. No detailed promotion-rule engine is proposed from this excerpt."}
+  ]
+}

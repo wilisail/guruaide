@@ -1,0 +1,23 @@
+{
+  "synthetic": true,
+  "participant_code": "DEMO-P01",
+  "school_level": "SD",
+  "school_sector": "PUBLIC",
+  "period": "2026",
+  "stage": "FOLLOW_UP_PLANNING",
+  "selected_focus": "Teacher-confirmed focus on participation during small-group discussion; demo text, not an official option identifier",
+  "subject": "Matematika",
+  "class": "4",
+  "sources": [
+    {"id":"N1","kind":"COMPLETED_OBSERVATION_NOTE","text":"Saat diskusi, beberapa siswa mendominasi percakapan dan sebagian siswa belum mendapat giliran."},
+    {"id":"N2","kind":"PLANNED_ACTION","text":"Saya ingin mencoba pembagian peran dan giliran berbicara dalam kelompok kecil."},
+    {"id":"N3","kind":"REQUESTED_SUPPORT","text":"Saya membutuhkan masukan atas lembar pengamatan yang akan dipakai."}
+  ],
+  "missing_information": ["Confirmed action timing", "Actual recipient's current field/options list"],
+  "expected_behavior": [
+    "Map observed difficulty and intended next actions into a reviewable draft",
+    "Keep proposed actions in future/planning language",
+    "Flag missing timing",
+    "Do not invent pupil counts, completed improvements or official approval"
+  ]
+}

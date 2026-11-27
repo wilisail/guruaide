@@ -1,0 +1,35 @@
+name: Masukan penggunaan Guruaide
+description: Laporkan istilah, kolom, aturan, atau tampilan yang perlu diperbaiki.
+title: "[Masukan] "
+body:
+  - type: markdown
+    attributes:
+      value: "Terima kasih telah mencoba Guruaide. Masukan ini bersifat publik. Jangan sertakan NIK, NIP, rekening, identitas guru/murid, tangkapan layar akun, atau dokumen kasus. Gunakan contoh rekaan."
+  - type: dropdown
+    id: module
+    attributes:
+      label: Layanan yang dicoba
+      options:
+        - Dokumen Kinerja
+        - Kendala Tunjangan
+        - Panduan dan tampilan
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: Bagian yang perlu diperbaiki
+      description: Jelaskan langkah atau istilah yang membingungkan dengan contoh rekaan.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Rujukan resmi, bila berkaitan dengan aturan
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Pemeriksaan sebelum publikasi
+      options:
+        - label: Masukan ini tidak memuat data pribadi atau dokumen kasus asli.
+          required: true
